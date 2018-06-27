@@ -22,5 +22,11 @@ public class UserController {
 		userService.getUserById(1);
 		return "success";
 	}
+	
+	@RequestMapping("/test2")
+	public String test()
+	{
+		return "test";
+	}
 
 }
