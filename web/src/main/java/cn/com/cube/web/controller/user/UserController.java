@@ -28,5 +28,11 @@ public class UserController {
 	{
 		return "test";
 	}
+	
+	@RequestMapping("/test3")
+	public String test2()
+	{
+		return "test2";
+	}
 
 }
